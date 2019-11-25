@@ -1,0 +1,20 @@
+{
+  "name": "eit-logo-white",
+  "version": "0.0.0",
+  "description": "Webcomponent eit-logo-white following open-wc recommendations",
+  "author": "eit-logo-white",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch"
+  },
+  "dependencies": {
+    "eit-logo": "0.0.1",
+    "lit-element": "^2.0.1",
+    "lit-html": "^1.0.0"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.5.0"
+  }
+}
